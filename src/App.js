@@ -28,17 +28,14 @@ function App() {
     
   }
   // 465.999.999.
-  const integer_formater =new Intl.NumberFormat("en-us" ,{
+  const integer_formater = new Intl.NumberFormat("en-us" ,{
     maximumFractionDigits:0,
   })
   function formatopration(opernd) {
     if (opernd == null) return 
       const [integer,decimal]= opernd.split('.')
       if(decimal == null) return integer_formater.format(integer)
-      
-    
-
-    
+ 
   }
   
   return (
