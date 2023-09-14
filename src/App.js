@@ -27,6 +27,7 @@ function App() {
     }
     
   }
+  
   // 465.999.999.
   const integer_formater = new Intl.NumberFormat("en-us" ,{
     maximumFractionDigits:0,
